@@ -19,6 +19,7 @@ spec:
     spec:
       containers:
       - image: initcron/streamlit:latest
+        imagePullPolicy: Always
         name: streamlit
         ports:
         - containerPort: 8501
